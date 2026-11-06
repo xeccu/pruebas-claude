@@ -6,10 +6,11 @@ App Android sencilla: escribes **"Lon"** en el buscador y muestra el mensaje
 ## Compilar el APK
 
 Requisitos: JDK 17 y Android SDK (API 34). Desde Android Studio: *Open* en esta
-carpeta y luego *Build > Build APK(s)*. O por terminal:
+carpeta y luego *Build > Build APK(s)*. O por terminal (el wrapper `gradlew` no está incluido; genéralo una vez con Gradle instalado):
 
 ```bash
 export ANDROID_HOME=/ruta/a/tu/Android/Sdk
+gradle wrapper --gradle-version 8.7
 ./gradlew assembleDebug
 ```
 
