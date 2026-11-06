@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lon y Samuel</string>
+    <string name="hint_search">Buscar personaje…</string>
+    <string name="button_search">Buscar</string>
+    <string name="result_found">¡Encontrado! Lon está aquí.\n\nSamuel, ¡cállate!</string>
+    <string name="result_not_found">No encontramos a ningún personaje con ese nombre.</string>
+    <string name="result_empty">Escribe un nombre para buscar.</string>
+</resources>
